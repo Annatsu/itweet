@@ -1,0 +1,33 @@
+{
+  "name": "itweet",
+  "version": "0.0.1",
+  "description": "A Twitter utility tool implementation for the command line",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annatsu/itweet.git"
+  },
+  "keywords": [
+    "twitter",
+    "cli",
+    "utils"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Annatsu/itweet/issues"
+  },
+  "homepage": "https://github.com/Annatsu/itweet#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-google": "^0.11.0"
+  }
+}
